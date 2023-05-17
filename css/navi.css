@@ -1,0 +1,40 @@
+.navi__list {
+    max-width: 600px;
+    margin: auto;
+    margin-top: 80px;
+    margin-bottom: 100px;
+    list-style: none;
+    text-align: center;
+    padding-inline-start: 0px;
+}
+
+.navi__listItem {
+    display:inline-block;
+}
+
+.navi__link {
+    margin: 10px;
+    text-align: center;
+    text-decoration: none;
+    border: 2px solid #007FFF;
+    border-radius: 30px;
+    padding: 10px;
+    color: #FFF;
+    background-color: #7a7777 ;
+}
+
+.navi__link:hover {
+    background-color: #0080ffbd;
+}
+
+.navi__link:active {
+    color: rgb(182, 150, 9);
+}
+
+.js-navi__button--darkSide {
+    border: 2px solid rgba(146, 10, 10, 0.671);
+}
+
+.js-navi__button--darkSide:hover {
+    background-color: rgba(146, 10, 10, 0.671);
+}

@@ -1,0 +1,16 @@
+.section--paragraph {
+    max-width: 800px;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.section__article {
+    margin-bottom: 100px;
+}
+
+.section__article--darkSide {
+    text-shadow: 1px 2px 5px rgba(146, 10, 10, 0.671);
+}

@@ -1,0 +1,19 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+.body {
+    max-width: 1000px;
+    margin: auto;
+    font-family: 'Lato', sans-serif;
+    background-color: rgb(0, 0, 0);
+}
+
+.section {
+    text-shadow: 1px 2px 5px #007FFF;
+    color: rgb(187, 153, 0);
+}

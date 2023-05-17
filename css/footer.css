@@ -1,0 +1,32 @@
+.footer {
+    background-color: #7a7777;
+    border: 1px solid #007FFF;
+    border-radius: 30px;
+    padding: 10px;
+    max-width: 800px;
+    margin: auto;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.footer--darkSide {
+    border: 1px solid rgba(146, 10, 10, 0.671);
+} 
+
+.footer__link {
+    color: #FFF;
+    text-shadow: 1px 2px 5px #007FFF;
+    text-decoration: none;
+}
+
+.footer__link:hover {
+    text-decoration: underline;
+}
+
+.footer__link:active {
+    color: rgb(182, 150, 9);
+}
+
+.footer__link--darkSide {
+    text-shadow: 1px 2px 5px rgba(146, 10, 10, 0.671);
+}

@@ -1,0 +1,14 @@
+.section--characters {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+.characters__characters {
+    max-width: 800px;
+    margin:auto;
+}
+
+.characters--darkSide {
+    text-shadow: 1px 2px 5px rgba(146, 10, 10, 0.671);
+}

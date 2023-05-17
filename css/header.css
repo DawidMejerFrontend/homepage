@@ -1,0 +1,56 @@
+.header {
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.header__buttonContainer {
+   text-align: center;
+   margin-top: 50px;
+}
+
+.header__switchSideButton {
+    cursor: pointer;
+    color: #FFF;
+    background-color: #7a7777;
+    border: 2px solid #007FFF;
+    border-radius: 25px;
+    padding: 10px;
+}
+
+.header__switchSideButton:hover {
+    background-color: #0080ffbd;
+}
+
+.header__switchSideButton:active {
+    color:rgb(182, 150, 9);
+}
+
+.header__switchSideButton--darkSide {
+    border: 2px solid rgba(146, 10, 10, 0.671);
+}
+
+.header__switchSideButton--darkSide:hover {
+    background-color: rgba(146, 10, 10, 0.671);
+}
+
+.header__image {
+    border: 2px solid #7a7777;
+    border-bottom-left-radius: 30px;
+    display: block;
+    max-width: 600px;
+    box-shadow: 8px 7px 5px 0px #007FFF;;
+    margin: auto;
+}
+
+.header__image--darkSide {
+    display: none;
+}
+
+.header__image--darkSideSwitch {
+    border: 2px solid #7a7777;
+    border-bottom-left-radius: 30px;
+    display: block;
+    max-width: 600px;
+    box-shadow: 8px 7px 5px 0px rgba(146, 10, 10, 0.671);
+    margin: auto;
+}
