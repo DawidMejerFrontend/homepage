@@ -4,18 +4,18 @@
     }
 
     const switchSideButton = document.querySelector(".js-header__switchSideButton");
-    const picture = document.querySelector(".header__image");
-    const article = document.querySelector(".section__article");
+    const picture = document.querySelector(".js-header__image");
+    const article = document.querySelector(".js-section__article");
     const articles = document.querySelectorAll(".section__article");
     const naviButton = document.querySelector(".js-navi__button");
     const naviButtons = document.querySelectorAll(".js-navi__button");
-    const footer = document.querySelector(".footer");
-    const footerLink = document.querySelector(".footer__link");
-    const tableRow = document.querySelector(".table__tableRow");
-    const tableRows = document.querySelectorAll(".table__tableRow");
-    const pictureDarkSide = document.querySelector(".header__image--darkSide");
-    const characterSection = document.querySelector(".section--characters");
-    const tableSection = document.querySelector(".section--table");
+    const footer = document.querySelector(".js-footer");
+    const footerLink = document.querySelector(".js-footer__link");
+    const tableRow = document.querySelector(".js-table__tableRow");
+    const tableRows = document.querySelectorAll(".js-table__tableRow");
+    const pictureDarkSide = document.querySelector(".js-header__image--darkSide");
+    const characterSection = document.querySelector(".js-section--characters");
+    const tableSection = document.querySelector(".js-section--table");
 
     const toggleSide = () => {
         picture.classList.toggle("header__image--darkSide");
@@ -27,8 +27,7 @@
         tableSection.classList.toggle("section--darkSide");
 
         for (const naviButton of naviButtons) {
-            naviButton.classList.toggle("js.navi__button--darkSide");
-            naviButton.classList.toggle("js-navi__button--darkSide")
+            naviButton.classList.toggle("navi__button--darkSide");
         }
 
         for (const tableRow of tableRows) {
@@ -45,12 +44,11 @@
             switchSideButton.innerText = "Przejdź na ciemną stronę mocy";
         }
     };
-
+    
     const init = () => {
         switchSideButton.addEventListener("click", toggleSide);
 
         welcome();
-
     }
 
     init()

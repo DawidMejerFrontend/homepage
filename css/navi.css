@@ -31,10 +31,10 @@
     color: rgb(182, 150, 9);
 }
 
-.js-navi__button--darkSide {
+.navi__button--darkSide {
     border: 2px solid rgba(146, 10, 10, 0.671);
 }
 
-.js-navi__button--darkSide:hover {
+.navi__button--darkSide:hover {
     background-color: rgba(146, 10, 10, 0.671);
 }
